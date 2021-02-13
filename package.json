@@ -4,11 +4,12 @@
   "description": "E-commerce website to sell agarbatti",
   "main": "server.js",
   "scripts": {
-   
+    "start": "node server.js",
+    "test": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/ritvij05/e-com-agarbatti-website.git"
   },
   "keywords": [
     "agarbatti"
@@ -16,14 +17,16 @@
   "author": "ritvij & shreyanshu",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/ritvij05/e-com-agarbatti-website/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/ritvij05/e-com-agarbatti-website#readme",
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "config": "^3.3.3",
     "dotenv": "^8.2.0",
     "ejs": "^3.1.6",
+    "email-validator": "^2.0.4",
     "express": "^4.17.1",
     "mysql": "^2.18.1",
     "path": "^0.12.7"
